@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sit on chair</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700&amp;subset=latin-ext" rel="stylesheet">
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <nav class="nav">
+            <h1 class="nav__logo">Sit <span class="blue">on</span> chair</h1>
+            <span class="nav__menu fas fa-bars"></span>
+            <ul class="nav__list">
+                <li class="nav__list-item">
+                    <a href="" class="nav__list-link">O firmie</a>
+                    <!-- <ul class="nav__sublist">
+                        <li class="nav__sublist-item">
+                            <a href="" class="nav__sublist-link">Aktualności</a>
+                        </li>
+                        <li class="nav__sublist-item">
+                            <a href="" class="nav__sublist-link">Nasz team</a>
+                        </li>
+                        <li class="nav__sublist-item">
+                            <a href="" class="nav__sublist-link">Historia</a>
+                        </li>
+                    </ul> -->
+                </li>
+                <li class="nav__list-item">
+                    <a href="" class="nav__list-link">Galeria</a>
+                </li>
+                <li class="nav__list-item">
+                    <a href="" class="nav__list-link">Kontakt</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="slider">
+        <div class="center slider__wrapper">
+            <i class="fas fa-angle-left blue"></i>
+            <div class="slider__gallery">
+                <img class="slider__picture" src="images/black_chair.png" alt="czarny fotel">
+            </div>
+
+            <article class="slider__article">
+                <h2 class="slider__article-title">Sit <span class="blue">on</span> our <span class="blue">chair</span></h2>
+                <p class="slider__article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias
+                    asperiores
+                    aspernatur assumenda commodi, dolorem doloribus impedit ipsam.</p>
+                <button class="slider__article-button">Zobacz więcej</button>
+            </article>
+            <i class="fas fa-angle-right blue"></i>
+        </div>
+    </section>
+
+    <section class="products center">
+
+        <div class="products__picture">
+            <img src="images/box1_img.jpg" alt="krzesło">
+        </div>
+        <div class="products__picture">
+            <img src="images/box2_img.jpg" alt="dziecko śpiące na fotelu">
+        </div>
+        <article class="products__article">
+            <h2 class="products__article-title">Finds all inputs</h2>
+            <p class="products__article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam culpa
+                deleniti in reiciendis similique veniam voluptates voluptatum. Error, nam necessitatibus.</p>
+            <br>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae, pariatur?</p>
+        </article>
+    </section>
+
+    <div class="pricelist">
+        <h2 class="pricelist__header center">Cennik</h2>
+        <section class="pricelist__wraper center">
+            <div class="pricelist___plan">
+                <div class="smallring"></div>
+                <h2 class="pricelist___plan-title blue">Basic plan</h2>
+                <div class="pricelist__plan-price">
+                    <div class="pricelist__circle">
+                        <p>85<sup>99</sup></p>
+                        <p>pln/msc</p>
+                    </div>
+                </div>
+                <p class="pricelist__plan-text">Zakup towaru + dowóz</p>
+                <p class="pricelist__plan-text">Serwis</p>
+                <div class="price__list-buttonwrapper">
+                    <button class="price__list-button">Dołącz</button>
+                </div>
+            </div>
+
+            <div class="pricelist___plan pricelist___plan--standard">
+                <div class="smallring"></div>
+                <h2 class="pricelist___plan-title">Standard plan</h2>
+                <div class="pricelist__plan-price">
+                    <div class="pricelist__circle">
+                        <p>95<sup>99</sup></p>
+                        <p>pln/msc</p>
+                    </div>
+                </div>
+                <p class="pricelist__plan-text">Zakup towaru + dowóz</p>
+                <p class="pricelist__plan-text">Serwis</p>
+                <p class="pricelist__plan-text">Gwarancja 5 lat</p>
+                <div class="price__list-buttonwrapper">
+                    <button class="price__list-button">Dołącz</button>
+                </div>
+            </div>
+
+            <div class="pricelist___plan">
+                <div class="smallring"></div>
+                <h2 class="pricelist___plan-title blue">Standard plan</h2>
+                <div class="pricelist__plan-price">
+                    <div class="pricelist__circle">
+                        <p>211<sup>99</sup></p>
+                        <p>pln/msc</p>
+                    </div>
+                </div>
+                <p class="pricelist__plan-text">Zakup towaru + dowóz</p>
+                <p class="pricelist__plan-text">Serwis</p>
+                <p class="pricelist__plan-text">Gwarancja 5 lat</p>
+                <p class="pricelist__plan-text">Porady projektanta</p>
+                <div class="price__list-buttonwrapper">
+                    <button class="price__list-button">Dołącz</button>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section class="contact center">
+
+        <form action="" class="contact__form">
+            <h2 class="contact__header">Kontakt</h2>
+            <div>
+                <label>
+                    <input type="text" name="name" placeholder="Imię">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input type="email" name="e-mail" placeholder="e-mail">
+                </label>
+            </div>
+            <div>
+                <label>
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Wiadomość"></textarea>
+                </label>
+            </div>
+
+
+        </form>
+        <div class="contact__info">
+            <img class="contact__image" src="images/red_chair.png" alt="">
+            <input class="contact__checkbox" type="checkbox">Zgadzam się na przetwarzanie danych osobowych>
+            <input class="contact__info-button" type="submit" name="send" value="Wyślij">
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="footer__rights"></p>
+        <div class="footer__socials"></div>
+        <p class="footer__logo"></p>
+    </footer>
+
+
+    <footer>
+        <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, dolor.</div>
+        <ul>monubs
+            <li>mnbjh</li>
+        </ul>
+
+    </footer>
+
+</body>
+
+</html>

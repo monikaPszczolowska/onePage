@@ -1,2 +1,9 @@
 $tablet: "(min-width: 600px)";
 $desktop: "(min-width: 1000px)";
+
+$main-color: #27C7AB;
+
+%main-font {
+    color: #27C7AB;
+    font-weight: bold;
+}

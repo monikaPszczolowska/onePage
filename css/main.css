@@ -1,0 +1,73 @@
+.blue {
+  color: #27C7AB;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.header {
+  background-color: black;
+  width: 100vw;
+  height: 10vh;
+}
+
+.header .nav {
+  color: white;
+  text-transform: uppercase;
+}
+
+.header .nav .nav__logo {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 10vh;
+  text-align: center;
+}
+
+.header .nav .nav__menu {
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  font-size: 3em;
+}
+
+.header .nav .nav__list {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+  list-style: none;
+}
+
+.header .nav .nav__list .nav__list-item {
+  font-size: 1.5em;
+}
+
+.header .nav .nav__list .nav__list-item .nav__list-link,
+.header .nav .nav__list .nav__list-item .nav__sublist-link {
+  padding-left: 1em;
+  line-height: 150%;
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+
+.header .nav .mobile-menu-open {
+  width: 40vh;
+}
+
+.hamburger-button-hidden {
+  display: none;
+}
+/*# sourceMappingURL=main.css.map */
