@@ -1,0 +1,18 @@
+.footer {
+    @include section-stack(white);
+
+    .footer__socials {
+        img {
+            width: 2em;
+            height: 2em;
+        }
+    }
+
+    .footer__rights {
+        font-size: 0.8em;
+    }
+
+    .footer__logo {
+        text-align: right;
+    }
+}

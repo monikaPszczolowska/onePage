@@ -1,0 +1,5 @@
+@mixin section-stack ($color) {
+    font-size: 3em;
+    padding: 1em;
+    background-color: $color;
+}

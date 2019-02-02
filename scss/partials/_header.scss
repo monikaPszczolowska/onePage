@@ -3,18 +3,13 @@
     width: 100vw;
     height: 10vh;
 
-    // .nav__list-item {
-    //     list-style: none;
-    //     padding: 0 20px;
-    //     position: relative;
-    //     height: 10vh;
-    //     line-height: 10vh;
     .nav {
         color: white;
         text-transform: uppercase;
 
+
         .nav__logo {
-            font-size: 3rem;
+            font-size: 3em;
             font-weight: bold;
             line-height: 10vh;
             text-align: center;
@@ -22,9 +17,13 @@
 
         .nav__menu {
             position: fixed;
-            top: 10px;
-            left: 20px;
+            top: 1em;
+            left: 1em;
             font-size: 3em;
+        }
+
+        .hamburger-button-hidden {
+            display: none;
         }
 
         .nav__list {
@@ -34,13 +33,16 @@
             width: 0;
             height: 100vh;
             background-color: rgba(0, 0, 0, 0.5);
+            margin-top: 10em;
             z-index: 100;
             list-style: none;
 
 
 
             .nav__list-item {
-                font-size: 1.5em;
+                font-size: 3em;
+                font-weight: 700;
+                padding: 1em;
 
                 .nav__list-link,
                 .nav__sublist-link {
@@ -55,14 +57,9 @@
         }
 
         .mobile-menu-open {
-            width: 40vh;
+            width: 30vh;
         }
 
     }
 
-}
-
-
-.hamburger-button-hidden {
-    display: none;
 }
