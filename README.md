@@ -29,6 +29,7 @@ link to demo will follow...
 ## Features
 To-do list:
 * RWD/sections to be finished
+* mixins
 * JS slider
 * JS gallery
 * JS drop-down list
