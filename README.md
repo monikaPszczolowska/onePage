@@ -26,7 +26,7 @@ will follow...
 ## Setup
 link to demo will follow...
 
-#Features
+## Features
 To-do list:
 * RWD/sections to be finished
 * JS slider
