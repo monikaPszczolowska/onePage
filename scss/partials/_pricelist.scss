@@ -1,0 +1,111 @@
+.pricelist {
+    background-color: #ddd;
+
+    .pricelist__header,
+    .contact__header {
+        text-transform: uppercase;
+        font-size: 16px;
+        border-bottom: 6px solid #27C7AB;
+        padding: 20px 0;
+    }
+
+    .pricelist__wraper {
+        display: flex;
+        flex-direction: column;
+        margin-top: 40px;
+        padding: 40px 0;
+
+
+        .pricelist___plan {
+            flex-basis: 30%;
+            padding: 20px 0;
+            /* kontener */
+            display: flex;
+            flex-direction: column;
+            align-items: stretch;
+            text-align: center;
+            line-height: 50px;
+            border: 1px solid gray;
+            position: relative;
+
+            .smallring {
+                position: absolute;
+                top: -25px;
+                left: calc(50% - 25px);
+                width: 50px;
+                height: 50px;
+                background-color: gray;
+                border-radius: 50%;
+                border: 10px solid #f9f9f9;
+                box-shadow: 0 0 0 2px gray;
+
+            }
+
+
+            .pricelist___plan-title {
+                text-transform: uppercase;
+                padding: 20px;
+            }
+
+            .pricelist__plan-price {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                padding-bottom: 20px;
+
+                .pricelist__circle {
+                    width: 100px;
+                    height: 100px;
+                    border: 1px solid gray;
+                    border-radius: 50%;
+                    text-transform: uppercase;
+                    background-color: #f9f9f9;
+                    line-height: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                .pricelist__circle p:first-child {
+                    font-size: 24px;
+                    font-weight: bold;
+                }
+
+                .pricelist__circle p:nth-child(2) {
+                    font-size: 10px;
+                }
+            }
+
+            .pricelist__plan-text {
+                height: 50px;
+                background-color: #ccc;
+            }
+
+            .pricelist__plan-text:nth-child(even) {
+                background-color: #e5e4e2;
+            }
+
+            .price__list-buttonwrapper {
+                flex-grow: 1;
+                /* kontener */
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+                padding: 20px;
+
+                .price__list-button {
+                    background-color: #27C7AB;
+                    width: 80%;
+                    font-size: 15px;
+                    color: white;
+                    text-transform: uppercase;
+                    border-radius: 15px;
+                    padding: 10px 20px;
+                }
+
+            }
+        }
+    }
+}
