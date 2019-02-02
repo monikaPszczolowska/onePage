@@ -33,15 +33,8 @@
                 padding: 1em;
             }
 
-            .slider__article-button,
-            .contact__info-button {
-                background-color: $main-color;
-                font-size: 1em;
-                color: white;
-                text-transform: uppercase;
-                border-radius: 1em;
-                padding: 0.5em 1em;
-                border: none;
+            .slider__article-button {
+                @include main-button ($main-color, white);
                 margin-bottom: 1em;
             }
 

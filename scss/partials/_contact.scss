@@ -5,6 +5,12 @@
     text-align: center;
 
     .contact__form {
+        text-align: left;
+
+        .contact__header {
+            @include section-header;
+        }
+
         label {
             border: none;
         }
@@ -16,7 +22,6 @@
             margin: 0.25em;
             padding: 0.25em;
         }
-
     }
 
     .contact__info {
@@ -31,14 +36,8 @@
         }
 
         .contact__info-button {
-            background-color: $main-color;
-            width: 80%;
-            font-size: 1em;
-            color: white;
-            text-transform: uppercase;
-            border-radius: 1em;
-            padding: 0.5em 1em;
-            border: none;
+            @include main-button ($main-color, white);
+            margin-top: 1em;
         }
 
         img {
