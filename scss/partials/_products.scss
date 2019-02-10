@@ -28,6 +28,13 @@
             padding: 0 1em;
         }
     }
+}
 
-
+@media #{$desktop} {
+    .products {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        font-size: 1em;
+    }
 }

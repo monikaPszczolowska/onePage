@@ -63,3 +63,30 @@
     }
 
 }
+
+@media #{$desktop} {
+    .header {
+        .nav {
+            .nav__logo {
+                font-size: 2em;
+                text-align: left;
+                margin-left: 50px;
+            }
+
+            .nav__list {
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                background-color: rgba(0, 0, 0, 0.2);
+                margin-top: 0;
+                width: 100vw;
+                height: 10vh;
+
+                .nav__list-item {
+                    font-size: 1em;
+
+                }
+            }
+        }
+    }
+}

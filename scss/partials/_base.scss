@@ -8,11 +8,15 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
-// .center {
-//     width: 1024px;
-//     margin: 0 auto;
-// }
 
 .blue {
     @extend %main-font;
+}
+
+
+@media #{$wide-desktop} {
+    .center {
+        width: 1024px;
+        margin: 0 auto;
+    }
 }

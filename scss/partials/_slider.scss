@@ -43,9 +43,41 @@
 
 }
 
-
-
 .fa-angle-left,
 .fa-angle-right {
     display: none;
+}
+
+@media #{$desktop} {
+
+    .slider {
+
+
+        .slider__wrapper {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .slider__gallery {
+                flex-basis: 50%;
+
+                .slider__picture {
+                    width: auto;
+                    height: auto;
+                }
+            }
+
+            .slider__article {
+                flex-basis: 50%;
+                font-size: 1rem;
+            }
+
+            .fa-angle-left,
+            .fa-angle-right {
+                display: block;
+                font-size: 5rem;
+            }
+        }
+    }
+
 }

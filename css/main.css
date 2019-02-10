@@ -14,6 +14,13 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+@media (min-width: 1025px) {
+  .center {
+    width: 1024px;
+    margin: 0 auto;
+  }
+}
+
 .header {
   background-color: black;
   width: 100vw;
@@ -72,6 +79,32 @@ body {
 
 .header .nav .mobile-menu-open {
   width: 30vh;
+}
+
+@media (min-width: 1000px) {
+  .header .nav .nav__logo {
+    font-size: 2em;
+    text-align: left;
+    margin-left: 50px;
+  }
+  .header .nav .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 0;
+    width: 100vw;
+    height: 10vh;
+  }
+  .header .nav .nav__list .nav__list-item {
+    font-size: 1em;
+  }
 }
 
 .slider {
@@ -136,6 +169,39 @@ body {
   display: none;
 }
 
+@media (min-width: 1000px) {
+  .slider .slider__wrapper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .slider .slider__wrapper .slider__gallery {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .slider .slider__wrapper .slider__gallery .slider__picture {
+    width: auto;
+    height: auto;
+  }
+  .slider .slider__wrapper .slider__article {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    font-size: 1rem;
+  }
+  .slider .slider__wrapper .fa-angle-left,
+  .slider .slider__wrapper .fa-angle-right {
+    display: block;
+    font-size: 5rem;
+  }
+}
+
 .products {
   font-size: 3em;
   padding: 1em;
@@ -175,6 +241,22 @@ body {
 
 .products .products__article .products__article-text {
   padding: 0 1em;
+}
+
+@media (min-width: 1000px) {
+  .products {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    font-size: 1em;
+  }
 }
 
 .pricelist {
@@ -343,6 +425,24 @@ body {
   border: none;
 }
 
+@media (min-width: 1000px) {
+  .pricelist .pricelist__wraper {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .pricelist .pricelist__wraper .pricelist___plan {
+    -ms-flex-preferred-size: 30%;
+        flex-basis: 30%;
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+}
+
 .contact {
   font-size: 3em;
   padding: 1em;
@@ -416,6 +516,45 @@ body {
   padding: 1em;
 }
 
+@media (min-width: 1000px) {
+  .contact {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1em;
+  }
+  .contact .contact__form {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+  }
+  .contact .contact__form .contact__header {
+    font-size: 2.5em;
+  }
+  .contact .contact__form input,
+  .contact .contact__form textarea {
+    width: 100%;
+    font-size: 1.5em;
+    border: 1px solid #27C7AB;
+    margin: 0.25em;
+    padding: 0.25em;
+  }
+  .contact .contact__info {
+    -ms-flex-preferred-size: 40%;
+        flex-basis: 40%;
+  }
+  .contact .contact__info input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .footer {
   font-size: 3em;
   padding: 1em;
@@ -433,5 +572,15 @@ body {
 
 .footer .footer__logo {
   text-align: right;
+}
+
+@media (min-width: 1000px) {
+  .footer {
+    font-size: 2rem;
+  }
+  .footer .footer__socials img {
+    width: 1em;
+    height: 1em;
+  }
 }
 /*# sourceMappingURL=main.css.map */

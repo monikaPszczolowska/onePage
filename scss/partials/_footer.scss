@@ -16,3 +16,16 @@
         text-align: right;
     }
 }
+
+@media #{$desktop} {
+    .footer {
+        font-size: 2rem;
+
+        .footer__socials {
+            img {
+                width: 1em;
+                height: 1em;
+            }
+        }
+    }
+}

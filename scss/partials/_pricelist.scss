@@ -111,3 +111,19 @@
         }
     }
 }
+
+@media #{$desktop} {
+    .pricelist {
+
+        .pricelist__wraper {
+            flex-direction: row;
+            justify-content: space-between;
+
+            .pricelist___plan {
+                flex-basis: 30%;
+                font-size: 1rem;
+                line-height: 1rem;
+            }
+        }
+    }
+}
